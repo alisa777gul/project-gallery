@@ -31,6 +31,7 @@
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .gallery-item {
@@ -97,4 +98,24 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.gallery-btn-js{
+	font-size: 16px;
+	padding: 10px 20px;
+	color: #fff;
+	border: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-left: 10px;
+	border-radius: 6px;
+	background: linear-gradient(90deg, #112e0f, #112e0f, #1077a3, #0a07d1);
+	height: 40px;
+}
+
+
+.btn-wrapper{
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
